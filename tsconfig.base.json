@@ -15,7 +15,22 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@stack-v195/admin/assets": ["libs/admin/assets/src/index.ts"],
+      "@stack-v195/admin/data-access": ["libs/admin/data-access/src/index.ts"],
+      "@stack-v195/admin/feature-about": ["libs/admin/feature-about/src/index.ts"],
+      "@stack-v195/admin/feature-auth": ["libs/admin/feature-auth/src/index.ts"],
+      "@stack-v195/admin/feature-core": ["libs/admin/feature-core/src/index.ts"],
+      "@stack-v195/admin/feature-dashboard": ["libs/admin/feature-dashboard/src/index.ts"],
+      "@stack-v195/admin/feature-shell": ["libs/admin/feature-shell/src/index.ts"],
+      "@stack-v195/admin/layout": ["libs/admin/layout/src/index.ts"],
+      "@stack-v195/admin/style": ["libs/admin/style/src/index.ts"],
+      "@stack-v195/api-app-module": ["apps/api/src/app/app.module.ts"],
+      "@stack-v195/api/data-access": ["libs/api/data-access/src/index.ts"],
+      "@stack-v195/api/data-access-auth": ["libs/api/data-access-auth/src/index.ts"],
+      "@stack-v195/api/feature-auth": ["libs/api/feature-auth/src/index.ts"],
+      "@stack-v195/api/feature-core": ["libs/api/feature-core/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
